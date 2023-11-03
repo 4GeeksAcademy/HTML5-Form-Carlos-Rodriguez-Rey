@@ -41,9 +41,9 @@
                 
 
                 <div class="form2 col-4">
-                    <i class="fa-solid fa-dollar-sign"></i>
                     <label for="inputPassword5" class="form-label"> Amount </label>
-                    <input class="form-control" type="text" placeholder="Amount" aria-label="default input example">
+                    <div class="d-flex flex-row"> <i class="fa-solid fa-dollar-sign fw-bold"></i>
+                    <input class="form-control" type="text" placeholder="Amount" aria-label="default input example"></div>
                 </div>
 
 
@@ -127,28 +127,25 @@
 
                 </div>
 
-                <div class="col-6">
-                    <div class="mb-3 mt-2">
-                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" id="text1" rows="3"></textarea>
-                        <div class="form-text">
-                            <span id="texto15" class="text-muted fs-6">
-                                Add any notes here.
-                            </span>
-                        </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="messageTextarea" class="form-label">Message</label>
+                        <textarea class="form-control" id="messageTextarea" aria-describedby="messageHelp" rows="3"></textarea>
+                        <div id="messageHelp" class="form-text text-muted">Add any notes here.</div>
+                      </div>  
+                </div>
 
 
 
 
                     </div>
+                    
+                </div>
+                <div class="card-footer d-flex justify-content-end">
+                    <button type="button" class="btn btn-secondary mr-2">Cancel</button>
+                    <button type="button" class="btn btn-primary">Send</button>
                 </div>
             </div>
-        </div>
-        <div class="card-footer d-flex justify-content-end">
-            <button type="button" class="btn btn-secondary mr-2">Cancel</button>
-            <button type="button" class="btn btn-primary">Send</button>
-        </div>
-    </div>
 </body>
 
 </html>
