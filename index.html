@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>HTML5 FORM</title>
+</head>
+
+<body>
+    <div class="card m-5">
+        <h2 class="card-header">Payment form example</h2>
+        <div class="card-body">
+            <div class="alert alert-danger" role="alert">
+                Some fields are missing
+            </div>
+            <div class="row mb-1 mt-2">
+                <div class="form1 col-5">
+                    <label for="inputPassword5" class="form-label">Card #</label>
+                    <input class="form-control" type="text" placeholder="XXXXXXXXXXXXX"
+                        aria-label="default input example">
+                </div>
+                <div class="form2 col-3">
+                    <label for="inputPassword5" class="form-label">CVC # </label>
+                    <input class="form-control" type="text" placeholder="0000" aria-label="default input example">
+                </div>
+
+                <div class="form2 col-4">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <label for="inputPassword5" class="form-label"> Amount </label>
+                    <input class="form-control" type="text" placeholder="Amount" aria-label="default input example">
+                </div>
+
+
+            </div>
+
+            <div class="row mb-1 mt-2">
+                <div class="form4 col-6">
+                    <label for="inputPassword5" class="form-label">First Name</label>
+                    <input class="form-control" type="text" placeholder="" aria-label="default input example">
+                </div>
+                <div class="form5 col-6">
+                    <label for="inputPassword5" class="form-label">Last Name </label>
+                    <input class="form-control" type="text" placeholder="" aria-label="default input example">
+                </div>
+            </div>
+
+            <div class="row mb-1 mt-2">
+                <div class="form6 col-6">
+                    <label for="inputPassword5" class="form-label">City</label>
+                    <input class="form-control" type="text" placeholder="" aria-label="default input example">
+                </div>
+
+                <div class="form6 col-3">
+                    <label for="inputPassword5" class="form-label">State</label>
+                    <select class="form-select form-control" aria-label="Default select example"
+                        placeholder="Pick a state">
+                        <option selected>Pick a state</option>
+                        <option value="1">Madrid</option>
+                        <option value="2">Barcelona</option>
+                        <option value="3">Galicia</option>
+                    </select>
+                </div>
+                <div class="form5 col-3">
+                    <label for="inputPassword5" class="form-label">Postal code</label>
+                    <input class="form-control" type="text" placeholder="" aria-label="default input example">
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+            <div class="row mb-1 mt-2">
+                <div class="col-6">
+                    <div class="mt-3">
+                        <p> We accept:</p>
+                    </div>
+                    <label class="btn btn-secondary" for="option1">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                value="option1">
+                            <label class="form-check-label" for="inlineRadio1"><i
+                                    class="fa-brands fa-cc-mastercard fa-xl"></i></label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                value="option2">
+                            <label class="form-check-label" for="inlineRadio2"><i
+                                    class="fa-brands fa-cc-visa fa-xl"></i></label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                value="option1">
+                            <label class="form-check-label" for="inlineRadio1"><i
+                                    class="fa-brands fa-cc-diners-club fa-xl"></i></label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                value="option2">
+                            <label class="form-check-label" for="inlineRadio2"><i
+                                    class="fa-brands fa-cc-amex fa-xl"></i></label>
+                        </div>
+
+
+
+
+
+
+                </div>
+
+                <div class="col-6">
+                    <div class="mb-3 mt-2">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" id="text1" rows="3"></textarea>
+                        <div class="form-text" id="texto7">
+                            <p>
+                                Add any notes here.
+                            </p>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer d-flex justify-content-end">
+            <button type="button" class="btn btn-secondary mr-2">Cancel</button>
+            <button type="button" class="btn btn-primary">Send</button>
+        </div>
+    </div>
+</body>
+
+</html>
